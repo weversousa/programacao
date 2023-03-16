@@ -82,10 +82,10 @@ Define um contrato que especifica quais métodos uma classe deve implementar, se
 É um método definido em uma classe abstrata que não possui implementação, mas que deve ser implementado por suas subclasses para realizar uma ação específica.
 
 #### PILARES
-* **Encapsulamento**: é o conceito de ocultar a complexidade interna de um objeto, protegendo seus dados e permitindo o **acesso** apenas por meio de métodos definidos pela classe (**getters e setters - Métodos "public"**).
-      **public**, qualquer classe acessa.
-      **private**, somente a própria classe.
-      **protecd**, a própria classe e subclasses.
+* **Encapsulamento**: é o conceito de ocultar a complexidade interna de um objeto, protegendo seus dados e permitindo o **acesso** apenas por meio de "métodos public" (**getters e setters**) definidos pela classe.
+     * **public**, qualquer classe acessa.
+     * **private**, somente a própria classe.
+     * **protecd**, a própria classe e subclasses.
 
 * **Herança**: É o conceito de criar uma nova classe a partir de uma classe existente, herdar seus atributos e métodos e adicionar ou modificar seu comportamento.
 
