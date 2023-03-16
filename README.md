@@ -57,6 +57,15 @@ São mecanismos que permitem a execução condicional de um conjunto de instruç
 ### POO - PROGRAMAÇÃO ORIENTADA A OBJETOS
 É um paradigma de programação que utiliza classes e objetos para representar entidades do mundo real, encapsulando dados e comportamentos em um conjunto coeso e modular, permitindo o reuso, a extensibilidade e a organização estruturada do código.
 
+Suas **vantagens** são:
+
+* **Confiável**, o isolamento entre as partes gera um programa seguro, ao alterar uma parte, nenhuma outra afetada.
+* **Oportuno**, ao dividir tudo em partes, várias delas * podem ser desenvolvidas em paralelo.
+* **Manutenível**, atualizar um programa é mais fácil. E Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
+* **Extensível**, o programa não é estático. Ele deve crescer para permanecer útil.
+* **Reutilizável**, podemos usar objetos de um sistema que criamos em outro sistema futuro.
+* **Natural**, mais fácil de entender. E você se preocupa mais na funcionalidade do que nos detalhes de implementação.
+
 #### CLASSE
 É um modelo que define a estrutura e comportamento dos objetos que serão criados a partir dela em programação orientada a objetos.
 
@@ -67,13 +76,16 @@ São mecanismos que permitem a execução condicional de um conjunto de instruç
 Define um contrato que especifica quais métodos uma classe deve implementar, sem especificar como eles devem ser implementados.
 
 #### CLASSE ABSTRATA
-uma classe que não pode ser instanciada, mas pode ser usada como um modelo para outras classes, definindo métodos que devem ser implementados por suas subclasses.
+É uma classe que não pode ser instanciada, mas pode ser usada como um modelo para outras classes, definindo métodos que devem ser implementados por suas subclasses.
 
 ##### MÉTODOS ABSTRATOS
 É um método definido em uma classe abstrata que não possui implementação, mas que deve ser implementado por suas subclasses para realizar uma ação específica.
 
 #### PILARES
-* **Encapsulamento**: é o conceito de ocultar a complexidade interna de um objeto, protegendo seus dados e permitindo o acesso apenas por meio de métodos definidos pela classe.
+* **Encapsulamento**: é o conceito de ocultar a complexidade interna de um objeto, protegendo seus dados e permitindo o **acesso** apenas por meio de métodos definidos pela classe (**getters e setters - Métodos "public"**).
+      **public**, qualquer classe acessa.
+      **private**, somente a própria classe.
+      **protecd**, a própria classe e subclasses.
 
 * **Herança**: É o conceito de criar uma nova classe a partir de uma classe existente, herdar seus atributos e métodos e adicionar ou modificar seu comportamento.
 
