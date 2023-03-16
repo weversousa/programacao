@@ -78,7 +78,7 @@ uma classe que não pode ser instanciada, mas pode ser usada como um modelo para
 * **Herança**: É o conceito de criar uma nova classe a partir de uma classe existente, herdar seus atributos e métodos e adicionar ou modificar seu comportamento.
 
 * **Polimorfismo**
-    *Sobreposição*: É o conceito de uma classe substituir o comportamento de um método herdado de sua classe pai, com a [mesma assinatura](#assinatura-de-um-método), para alterar sua funcionalidade de acordo com as necessidades da classe.
+    * **Sobreposição**: É o conceito de uma classe substituir o comportamento de um método herdado de sua classe pai, com a [mesma assinatura](#assinatura-de-um-método), para alterar sua funcionalidade de acordo com as necessidades da classe.
 
     * **Sobrecarga**: É o conceito de criar vários métodos com o mesmo nome, mas com diferentes parâmetros ou tipos de retorno, permitindo que a mesma operação possa ser realizada com diferentes argumentos.
 
