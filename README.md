@@ -73,13 +73,13 @@ Suas **vantagens** são:
 É uma instância de uma classe que possui seus próprios valores de atributos e pode executar os métodos definidos pela classe.
 
 #### INTERFACE
-Define um contrato que especifica quais métodos uma classe deve implementar, sem especificar como eles devem ser implementados.
+Define um contrato (obrigatoriedade) que especifica quais métodos uma classe deve implementar, sem especificar como eles devem ser implementados. Não pode: ser instanciada, ter atributos, ter métodos não abstratos. Pode: ser declarada como o Tipo de ima instância. Um projeto bem feito faz o uso da interface.
 
 #### CLASSE ABSTRATA
 É uma classe que não pode ser instanciada, mas pode ser usada como um modelo para outras classes, definindo métodos que devem ser implementados por suas subclasses.
 
 ##### MÉTODOS ABSTRATOS
-É um método definido em uma classe abstrata que não possui implementação, mas que deve ser implementado por suas subclasses para realizar uma ação específica.
+É um método definido em uma classe abstrata ou em uma interface que não possui implementação, mas que deve ser implementado por suas subclasses para realizar uma ação específica.
 
 #### PILARES
 * **Encapsulamento**: é o conceito de ocultar a complexidade interna de um objeto, protegendo seus dados e permitindo o **acesso** apenas por meio de "métodos public" (**getters e setters**) definidos pela classe.
