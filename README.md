@@ -60,7 +60,7 @@ São mecanismos que permitem a execução condicional de um conjunto de instruç
 Suas **vantagens** são:
 
 * **Confiável**, o isolamento entre as partes gera um programa seguro, ao alterar uma parte, nenhuma outra afetada.
-* **Oportuno**, ao dividir tudo em partes, várias delas * podem ser desenvolvidas em paralelo.
+* **Oportuno**, ao dividir tudo em partes, várias delas podem ser desenvolvidas em paralelo.
 * **Manutenível**, atualizar um programa é mais fácil. E Uma pequena modificação vai beneficiar todas as partes que usarem o objeto.
 * **Extensível**, o programa não é estático. Ele deve crescer para permanecer útil.
 * **Reutilizável**, podemos usar objetos de um sistema que criamos em outro sistema futuro.
@@ -73,7 +73,15 @@ Suas **vantagens** são:
 É uma instância de uma classe que possui seus próprios valores de atributos e pode executar os métodos definidos pela classe.
 
 #### INTERFACE
-Define um contrato (obrigatoriedade) que especifica quais métodos uma classe deve implementar, sem especificar como eles devem ser implementados. Não pode: ser instanciada, ter atributos, ter métodos não abstratos. Pode: ser declarada como o Tipo de ima instância. Um projeto bem feito faz o uso da interface.
+Define um contrato (obrigatoriedade) que especifica quais métodos uma classe deve implementar, sem especificar como eles devem ser implementados. Um projeto bem feito faz o uso da interface.
+
+Não pode:
+- Ser instanciada
+- Ter atributos
+- Ter métodos NÃO abstratos
+
+Pode:
+- Ser declarada como o Tipo de uma instância (é o processo de Inversão de Dependência).
 
 #### CLASSE ABSTRATA
 É uma classe que não pode ser instanciada, mas pode ser usada como um modelo para outras classes, definindo métodos que devem ser implementados por suas subclasses.
